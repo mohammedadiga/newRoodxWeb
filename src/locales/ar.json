@@ -1,0 +1,71 @@
+{
+  "hello": "مرحبا",
+  "welcome": "أهلا بك",
+  "language": "العربية",
+
+  "Error": {
+    "": "",
+    "invalidEmailFormat": "تنسيق البريد الإلكتروني غير صالح",
+    "emailTooShort": "البريد الإلكتروني قصير جدًا",
+    "emailTooLong": "البريد الإلكتروني طويل جدًا",
+
+    "invalidUserNameFormat": "يمكن أن يحتوي اسم المستخدم فقط على أحرف وأرقام وشرطات سفلية، ويجب أن يبدأ بحرف.",
+    "userNameTooShort": "يجب أن يكون اسم المستخدم مكونًا من 3 أحرف على الأقل.",
+    "userNameTooLong": "يجب ألا يتجاوز اسم المستخدم 20 حرفًا.",
+
+    "passwordEmptyError": "لا يمكن أن تكون كلمة المرور فارغة.",
+    "password6CharactersError": "يجب أن تكون كلمة المرور مكونة من 6 أحرف على الأقل.",
+    "passwordTooLongError": "يجب ألا تتجاوز كلمة المرور 255 حرفًا.",
+    "passwordRequiresUppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل.",
+    "passwordRequiresLowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل.",
+    "passwordRequiresNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.",
+    "passwordRequiresSpecialChar": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل (مثل !@#$%^&*).",
+    "passwordNoSpacesAllowed": "يجب ألا تحتوي كلمة المرور على مسافات.",
+
+    "invalidPhoneNumber": "رقم الهاتف غير صالح",
+    "userEmptyError": "يرجى تقديم بريد إلكتروني أو اسم مستخدم أو رقم هاتف.",
+
+    "invalidUsernameOrPassword": "معلومات المستخدم أو كلمة المرور غير صحيحة",
+
+    "common": {
+      "default": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى لاحقًا."
+    }
+  },
+
+  "Success": {
+    "userLoginSuccessfully": "تم تسجيل دخول المستخدم بنجاح",
+    "userRegisteredSuccessfully": "تم التسجيل بنجاح",
+    "passwordResetSuccessfully": "تمت إعادة تعيين كلمة المرور بنجاح",
+    "profile": {
+      "profileUpdate": "تم تحديث الملف الشخصي بنجاح.",
+      "updateCover": "تم تحديث الغلاف بنجاح.",
+      "removeCover": "تمت إزالة الغلاف بنجاح.",
+      "addEducation": "تمت إضافة التعليم بنجاح."
+    }
+  },
+
+  "Auth": {
+    "login": "تسجيل الدخول",
+    "loginDescription": "يرجى إدخال بيانات الاعتماد الخاصة بك لتسجيل الدخول.",
+    "input": {
+      "userInfoAndUsername": "البريد الإلكتروني أو اسم المستخدم أو الهاتف",
+      "placeholder": {
+        "userInfo": "أدخل بريدك الإلكتروني أو اسم المستخدم أو الهاتف",
+        "password": "أدخل كلمة المرور الخاصة بك"
+      },
+      "password": "كلمة المرور"
+    },
+    "forgotPassword?": "هل نسيت كلمة المرور؟",
+    "didntHaveAccount": "ليس لديك حساب؟",
+    "signup": "إنشاء حساب",
+
+    "policy": {
+      "text": "بمتابعتك، فإنك توافق على",
+      "terms": "شروط الخدمة",
+      "and": "و",
+      "privacy": "سياسة الخصوصية"
+    },
+
+    "OrContinueWith": "أو المتابعة باستخدام"
+  }
+}

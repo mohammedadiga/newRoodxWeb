@@ -1,0 +1,143 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome",
+  "language": "English",
+
+  "Error": {
+    "": "",
+    "invalidEmailFormat": "Invalid email format",
+    "emailTooShort": "Email is too short",
+    "emailTooLong": "Email is too long",
+
+    "invalidUserNameFormat": "username can only contain letters, numbers, and underscores, and must start with a letter.",
+    "userNameTooShort": "Username must be at least 3 characters long.",
+    "userNameTooLong": "Username must not exceed 20 characters.",
+
+    "passwordEmptyError": "Password cannot be empty.",
+    "password6CharactersError": "Password must be at least 6 characters long.",
+    "passwordTooLongError": "Password must not exceed 255 characters.",
+    "passwordRequiresUppercase": "Password must contain at least one uppercase letter.",
+    "passwordRequiresLowercase": "Password must contain at least one lowercase letter.",
+    "passwordRequiresNumber": "Password must contain at least one number.",
+    "passwordRequiresSpecialChar": "Password must include a special character (!@#$%^&*).",
+    "passwordNoSpacesAllowed": "Password must not contain spaces.",
+
+    "invalidPhoneNumber": "Invalid phone number",
+    "userEmptyError": "Please provide an email, username, or phone number.",
+    "invalidUsernameOrPassword": "Invalid User Info or password",
+    "emailOrPhonEmptyError": "Please provide a valid email or phone number.",
+
+    "firstnameTooShort": "First name must be at least 2 characters long.",
+    "firstnameTooLong": "First name must not exceed 30 characters.",
+    "firstnameFormatError": "First name can only contain letters and spaces.",
+
+    "lastnameTooShort": "Last name must be at least 2 characters long.",
+    "lastnameTooLong": "Last name must not exceed 30 characters.",
+    "lastnameFormatError": "Last name can only contain letters and spaces.",
+
+    "requiredDate": "Please provide a valid date.",
+    "invalidDate": "The date format is invalid. Please enter a valid date.",
+    "futureDate": "The date cannot be in the future. Please enter a past or present date.",
+    "ageRestriction": "You must meet the minimum age requirement to proceed.",
+
+    "companynameEmptyError": "Company name cannot be empty.",
+    "companynameTooShortError": "Company name must be at least 3 characters long.",
+    "companynameTooLongError": "Company name must not exceed 20 characters.",
+    "companynameFormatError": "Company name can only contain letters, numbers, and underscores, and must start with a letter.",
+
+    "EmptyError": "Activation code cannot be empty.",
+    "6CharactersError": "Activation code must be exactly 6 characters long.",
+    "NumberError": "Activation code must contain only numbers.",
+
+    "userNotFound": "User not found",
+    "usernameAlreadyExist": "Username already exist",
+    "emailAlreadyExist": "Email already exist",
+    "phoneAlreadyExist": "Phone number already exist",
+    "InvalidActivation": "Invalid activation token. Please try again later.",
+
+    "forgotPasswordTooMany":"You've requested password resets too frequently. Please wait a few minutes and try again.",
+
+    "common": {
+      "default": "An unexpected error occurred. Please try again later."
+    }
+  },
+
+  "Success": {
+    "userLoginSuccessfully": "Logged in successfully",
+    "userRegisteredSuccessfully": "Registered successfully",
+    "passwordResetSuccessfully": "Password reset successfully",
+    "profile": {
+      "profileUpdate": "Profile updated successfully.",
+      "updateCover": "Cover updated successfully.",
+      "removeCover": "Cover removed successfully.",
+      "addEducation": "Education added successfully."
+    }
+  },
+
+  "Auth": {
+    "login": "Login",
+    "loginDescription": "Welcome back! Log in to Roodx using your email, Microsoft, or Google account.",
+
+    "personal": "Personal",
+    "company": "Company",
+
+    "signup": "Sign Up",
+    "signupDescription": "Get started now by entering your email or connecting with your Microsoft or Google account.",
+
+    "activate": "Activate",
+    "activateCode": "Activate Code",
+    "verificationCode": "Verification Code",
+    "verificationEmailDescription": "We have just sent a 6-digit code to your email:",
+    "verificationPhoneDescription": "We have just sent a 6-digit code to your phone:",
+    "VerificationResendText": "Didn't receive the code?",
+    "VerificationResendButton": "Resend code",
+
+    "forgotPassword?": "Forgot Password?",
+    "forgotPassword": "Forgot Password",
+
+    "recoveryPassword": "Password Recovery",
+    "forgotPasswordDescription": "Enter the email address or phone number linked to your account, and we’ll send you instructions to reset your password.",
+
+    "setNewPassword": "Set New Password",
+    "setNewPasswordButton": "Change password",
+    "setNewPasswordDescription": "Your new password must be different from previously password",
+    "successfullyPassword": "Your password has been reset",
+    "successfullyPasswordDescription": "Your password has been changed successfully. Update your password periodically.",
+
+    "alreadyHaveAccount": "Already have an account?",
+    "didntHaveAccount": "Don't have an account?",
+
+    "next": "Next",
+
+    "input": {
+      "username": "Username",
+      "userInfoAndUsername": "Username, Email, or Phone number",
+      "userInfo": "Email or Phone number",
+      "password": "Password",
+      "confirmPassword": "Re-type Password",
+      "firstname": "First Name",
+      "lastname": "Last Name",
+      "birthday": "Birthday",
+      "companyname": "Company Name",
+      "companyDate": "Company Registration Date",
+
+      "placeholder": {
+        "username": "Enter your username",
+        "userInfo": "+90 / example@email.com",
+        "birthday": "Select your birthday",
+        "companyDate": "Select registration date",
+        "companyname": "Roodx",
+        "password": "**********"
+      }
+    },
+
+    "policy": {
+      "text": "By continuing, you agree to our",
+      "terms": "Terms of Service",
+      "and": "and",
+      "privacy": "Privacy Policy"
+    },
+
+    "OrContinueWith": "Or continue with"
+  }
+}
