@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
-// Modules
+// Components
 import AuthGuard from '@/components/authGuard';
 import { LanguageToggle } from '@/components/theme/LanguageToggle';
 

@@ -1,6 +1,6 @@
 import { api } from '@/store/api';
 // Slices
-import { setActivacionToken, setForgotPassword, setRessetPassword } from '@/store/slices/auth';
+import { setActivacionToken, setForgotPassword, setRessetPassword } from '@/store/slices/auth/authSlice';
 
 export const authApi = api.injectEndpoints({
   endpoints: (builder) => ({
@@ -14,6 +14,7 @@ export const authApi = api.injectEndpoints({
         } catch (error: any) {}
       },
     }),
+
     activatePassword: builder.mutation<any, Partial<IAuth>>({
       query: (body) => ({ url: 'auth/password/active', method: 'POST', body }),
       async onQueryStarted(args, { queryFulfilled, dispatch }) {
