@@ -19,13 +19,43 @@
     "passwordRequiresUppercase": "يجب أن تحتوي كلمة المرور على حرف كبير واحد على الأقل.",
     "passwordRequiresLowercase": "يجب أن تحتوي كلمة المرور على حرف صغير واحد على الأقل.",
     "passwordRequiresNumber": "يجب أن تحتوي كلمة المرور على رقم واحد على الأقل.",
-    "passwordRequiresSpecialChar": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل (مثل !@#$%^&*).",
+    "passwordRequiresSpecialChar": "يجب أن تحتوي كلمة المرور على رمز خاص واحد على الأقل (!@#$%^&*).",
     "passwordNoSpacesAllowed": "يجب ألا تحتوي كلمة المرور على مسافات.",
 
     "invalidPhoneNumber": "رقم الهاتف غير صالح",
     "userEmptyError": "يرجى تقديم بريد إلكتروني أو اسم مستخدم أو رقم هاتف.",
-
     "invalidUsernameOrPassword": "معلومات المستخدم أو كلمة المرور غير صحيحة",
+    "emailOrPhonEmptyError": "يرجى تقديم بريد إلكتروني صالح أو رقم هاتف.",
+
+    "firstnameTooShort": "يجب أن يكون الاسم الأول مكونًا من حرفين على الأقل.",
+    "firstnameTooLong": "يجب ألا يتجاوز الاسم الأول 30 حرفًا.",
+    "firstnameFormatError": "يمكن أن يحتوي الاسم الأول فقط على أحرف ومسافات.",
+
+    "lastnameTooShort": "يجب أن يكون اسم العائلة مكونًا من حرفين على الأقل.",
+    "lastnameTooLong": "يجب ألا يتجاوز اسم العائلة 30 حرفًا.",
+    "lastnameFormatError": "يمكن أن يحتوي اسم العائلة فقط على أحرف ومسافات.",
+
+    "requiredDate": "يرجى تقديم تاريخ صالح.",
+    "invalidDate": "تنسيق التاريخ غير صالح. يرجى إدخال تاريخ صالح.",
+    "futureDate": "لا يمكن أن يكون التاريخ في المستقبل. يرجى إدخال تاريخ ماضٍ أو حالي.",
+    "ageRestriction": "يجب أن تستوفي الحد الأدنى للسن للمتابعة.",
+
+    "companynameEmptyError": "لا يمكن أن يكون اسم الشركة فارغًا.",
+    "companynameTooShortError": "يجب أن يكون اسم الشركة مكونًا من 3 أحرف على الأقل.",
+    "companynameTooLongError": "يجب ألا يتجاوز اسم الشركة 20 حرفًا.",
+    "companynameFormatError": "يمكن أن يحتوي اسم الشركة فقط على أحرف وأرقام وشرطات سفلية، ويجب أن يبدأ بحرف.",
+
+    "EmptyError": "لا يمكن أن يكون رمز التفعيل فارغًا.",
+    "6CharactersError": "يجب أن يكون رمز التفعيل مكونًا من 6 أحرف بالضبط.",
+    "NumberError": "يجب أن يحتوي رمز التفعيل على أرقام فقط.",
+
+    "userNotFound": "المستخدم غير موجود",
+    "usernameAlreadyExist": "اسم المستخدم موجود بالفعل",
+    "emailAlreadyExist": "البريد الإلكتروني موجود بالفعل",
+    "phoneAlreadyExist": "رقم الهاتف موجود بالفعل",
+    "InvalidActivation": "رمز التفعيل غير صالح. يرجى المحاولة مرة أخرى لاحقًا.",
+
+    "forgotPasswordTooMany": "لقد طلبت إعادة تعيين كلمة المرور بشكل متكرر. يرجى الانتظار بضع دقائق والمحاولة مرة أخرى.",
 
     "common": {
       "default": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى لاحقًا."
@@ -33,7 +63,7 @@
   },
 
   "Success": {
-    "userLoginSuccessfully": "تم تسجيل دخول المستخدم بنجاح",
+    "userLoginSuccessfully": "تم تسجيل الدخول بنجاح",
     "userRegisteredSuccessfully": "تم التسجيل بنجاح",
     "passwordResetSuccessfully": "تمت إعادة تعيين كلمة المرور بنجاح",
     "profile": {
@@ -46,18 +76,62 @@
 
   "Auth": {
     "login": "تسجيل الدخول",
-    "loginDescription": "يرجى إدخال بيانات الاعتماد الخاصة بك لتسجيل الدخول.",
-    "input": {
-      "userInfoAndUsername": "البريد الإلكتروني أو اسم المستخدم أو الهاتف",
-      "placeholder": {
-        "userInfo": "أدخل بريدك الإلكتروني أو اسم المستخدم أو الهاتف",
-        "password": "أدخل كلمة المرور الخاصة بك"
-      },
-      "password": "كلمة المرور"
-    },
-    "forgotPassword?": "هل نسيت كلمة المرور؟",
-    "didntHaveAccount": "ليس لديك حساب؟",
+    "loginDescription": "مرحبًا بعودتك! قم بتسجيل الدخول إلى Roodx باستخدام بريدك الإلكتروني أو حساب Microsoft أو Google.",
+
+    "personal": "شخصي",
+    "company": "شركة",
+
     "signup": "إنشاء حساب",
+    "signupDescription": "ابدأ الآن بإدخال بريدك الإلكتروني أو الاتصال بحساب Microsoft أو Google الخاص بك.",
+
+    "logout": "تسجيل الخروج",
+
+    "activate": "تفعيل",
+    "activateCode": "رمز التفعيل",
+    "verificationCode": "رمز التحقق",
+    "verificationEmailDescription": "لقد أرسلنا للتو رمزًا مكونًا من 6 أرقام إلى بريدك الإلكتروني:",
+    "verificationPhoneDescription": "لقد أرسلنا للتو رمزًا مكونًا من 6 أرقام إلى هاتفك:",
+    "VerificationResendText": "لم تستلم الرمز؟",
+    "VerificationResendButton": "إعادة إرسال الرمز",
+
+    "forgotPassword?": "هل نسيت كلمة المرور؟",
+    "forgotPassword": "نسيت كلمة المرور",
+
+    "recoveryPassword": "استعادة كلمة المرور",
+    "forgotPasswordDescription": "أدخل عنوان البريد الإلكتروني أو رقم الهاتف المرتبط بحسابك، وسنرسل لك تعليمات لإعادة تعيين كلمة المرور.",
+
+    "setNewPassword": "تعيين كلمة مرور جديدة",
+    "setNewPasswordButton": "تغيير كلمة المرور",
+    "setNewPasswordDescription": "يجب أن تكون كلمة المرور الجديدة مختلفة عن كلمة المرور السابقة",
+    "successfullyPassword": "تمت إعادة تعيين كلمة المرور الخاصة بك",
+    "successfullyPasswordDescription": "تم تغيير كلمة المرور الخاصة بك بنجاح. قم بتحديث كلمة المرور الخاصة بك بشكل دوري.",
+
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "didntHaveAccount": "ليس لديك حساب؟",
+
+    "next": "التالي",
+
+    "input": {
+      "username": "اسم المستخدم",
+      "userInfoAndUsername": "اسم المستخدم أو البريد الإلكتروني أو رقم الهاتف",
+      "userInfo": "البريد الإلكتروني أو رقم الهاتف",
+      "password": "كلمة المرور",
+      "confirmPassword": "أعد كتابة كلمة المرور",
+      "firstname": "الاسم الأول",
+      "lastname": "اسم العائلة",
+      "birthday": "تاريخ الميلاد",
+      "companyname": "اسم الشركة",
+      "companyDate": "تاريخ تسجيل الشركة",
+
+      "placeholder": {
+        "username": "أدخل اسم المستخدم الخاص بك",
+        "userInfo": "+90 / example@email.com",
+        "birthday": "حدد تاريخ ميلادك",
+        "companyDate": "حدد تاريخ التسجيل",
+        "companyname": "Roodx",
+        "password": "**********"
+      }
+    },
 
     "policy": {
       "text": "بمتابعتك، فإنك توافق على",
@@ -67,5 +141,12 @@
     },
 
     "OrContinueWith": "أو المتابعة باستخدام"
+  },
+
+  "Sidebar": {
+    "home": "الرئيسية",
+    "job": "وظيفة",
+    "video": "فيديو",
+    "profile": "الملف الشخصي"
   }
 }

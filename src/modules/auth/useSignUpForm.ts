@@ -11,7 +11,7 @@ import { z } from 'zod';
 // Redux
 import { useAppDispatch, useAppSelector } from '@/store/hooks';
 import { useActivateMutation, useCheckemailMutation, useRegisterUserMutation } from '@/store/api/router/auth/signup.route';
-import { setEmail } from '@/store/slices/auth';
+import { setEmail } from '@/store/slices/auth/authSlice';
 import { RootState } from '@/store';
 // hooks
 import { useErrorToast } from '@/hooks/useErrorToast';

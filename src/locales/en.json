@@ -55,7 +55,7 @@
     "phoneAlreadyExist": "Phone number already exist",
     "InvalidActivation": "Invalid activation token. Please try again later.",
 
-    "forgotPasswordTooMany":"You've requested password resets too frequently. Please wait a few minutes and try again.",
+    "forgotPasswordTooMany": "You've requested password resets too frequently. Please wait a few minutes and try again.",
 
     "common": {
       "default": "An unexpected error occurred. Please try again later."
@@ -64,6 +64,7 @@
 
   "Success": {
     "userLoginSuccessfully": "Logged in successfully",
+    "userLogoutSuccessfully": "Logged out successfully",
     "userRegisteredSuccessfully": "Registered successfully",
     "passwordResetSuccessfully": "Password reset successfully",
     "profile": {
@@ -83,6 +84,8 @@
 
     "signup": "Sign Up",
     "signupDescription": "Get started now by entering your email or connecting with your Microsoft or Google account.",
+
+    "logout": "Log out",
 
     "activate": "Activate",
     "activateCode": "Activate Code",
@@ -139,5 +142,12 @@
     },
 
     "OrContinueWith": "Or continue with"
+  },
+
+  "Sidebar": {
+    "home": "Home",
+    "job": "Job",
+    "video": "Video",
+    "profile": "Profile"
   }
 }

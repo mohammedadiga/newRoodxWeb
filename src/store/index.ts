@@ -5,7 +5,7 @@ import { locationapi } from '@/store/api/location.api';
 // Slices
 import userReducer from './slices/user';
 import locationReducer from '@/store/slices/setting/locationSlice';
-import authReducer from '@/store/slices/auth';
+import authReducer from '@/store/slices/auth/authSlice';
 
 const store = configureStore({
   reducer: {

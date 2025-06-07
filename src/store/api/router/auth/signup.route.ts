@@ -1,6 +1,6 @@
 import { api } from '@/store/api';
 // Slices
-import { setActivacionToken, setEmail, setUserRegistration } from '@/store/slices/auth';
+import { setActivacionToken, setEmail, setUserRegistration } from '@/store/slices/auth/authSlice';
 
 export const authApi = api.injectEndpoints({
   endpoints: (builder) => ({
